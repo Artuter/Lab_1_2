@@ -1,0 +1,85 @@
+#main{
+    background: url(https://miro.medium.com/max/2363/1*5TRuG7tG0KrZJXKoFtHlSg.jpeg);
+    background-size: 100%;
+    text-align: center;
+    color: white;
+    background-attachment: fixed;
+}
+h1{
+    padding-top: 6%;
+    font-family: 'Sansita Swashed', cursive;
+}
+#description{
+    font-family: 'Sansita Swashed', cursive;
+}
+#container{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(https://cdn.pixabay.com/photo/2016/08/24/12/46/autumn-1616951_1280.jpg);
+    opacity: 90%;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 130%;
+    border: 2px solid orange;
+    border-radius: 25px;
+}
+#name{
+    padding-top: 20px;
+}
+
+#msg-div{
+    text-align: center;
+    padding-bottom: 30px;
+}
+input[type=submit]{
+    width: 200px;
+    height: 30px;
+    transition: 0.5s ease-out;
+    font-size: 90%;
+}
+input[type=submit]:hover{
+    width: 210px;
+    height: 35px;
+    
+}
+
+.input{
+    width: 650px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 30px;
+    font-size: 90%;
+}
+#dropdawn{
+    width: 650px;
+    height: 45px;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: 90%;
+}
+#dropdawn:hover{
+    border: 2px solid orange;
+}
+textarea{
+    width: 650px;
+    height: 200px;
+}
+label{
+    padding-left: 15px;
+    font-size: 140%; 
+}
+.input:hover{
+    border: 2px solid orange;
+}
+.input:focus{
+    border: 3px solid orange;
+}
+input[type=radio]{
+    width: 15px;
+    height: 15px;
+}
+input[type=checkbox]{
+    width: 15px;
+    height: 15px;
+}

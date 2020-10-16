@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap" rel="stylesheet">
+</head>
+<body id="main">
+<h1 id="title">IT company survay form</h1>
+<p id="description">Thank you for taking the time to fill out this form</p>
+<div id="container">
+    <form id="survey-form" >
+         <p id="name">
+            <label id="name-label" >Name</label><br>
+         
+         <input class="input" type="text" name="name" placeholder="Enter your name" required>
+         
+         </p>
+     
+       <p id="email">
+        <label id="email-label"  >E-Mail</label><br>
+       
+         <input class="input" type="email" name="email" placeholder="name@example.com" required>
+       
+        </p>
+
+        <p id="number">
+           <label id="number-label"> Age </label><br>   
+        <input class="input" type="number" name="age" min="18" max="99" required >
+
+        </p>
+       
+        <p >
+            <label > What salary would you like to have? </label><br>
+            <select id="dropdawn">
+                <option>200$ - 300$</option>
+                <option>300$ - 400$</option>
+                <option>400$ - 500$</option>
+            </select>
+        
+
+        </p>
+
+<p>
+    <label>Would you recommend our IT company to a friend?</label><br>
+    <input type="radio" name="radiobutton"  checked> Definitely <br>
+    <input type="radio" name="radiobutton"> Maybe <br>
+    <input type="radio" name="radiobutton"> Not sure
+    
+</p>
+    
+<p>
+    <label>What do you expect from job</label><br>
+    <input type="checkbox" name="checkbox" value="Good team" >Good team<br>
+    <input type="checkbox" name="checkbox" value="Recreation area" >Recreation area<br>
+    <input type="checkbox" name="checkbox" value="Comfortable workplace"  >Comfortable workplace<br>
+    <input type="checkbox" name="checkbox" value="Dining room" >Dining room<br>
+    <input type="checkbox" name="checkbox" value="Convenient location" >Convenient location<br>
+    <input type="checkbox" name="checkbox" value="Another option" checked>Another option
+</p>
+
+        <p id="msg">
+            <label>You can leave a comment</label><br>
+         <textarea placeholder="Comment here" >  </textarea><br>
+          <div id="msg-div">
+         <input type="submit" value="Submit"  >
+        </div>
+       </p>
+
+
+
+
+
+    </form>
+    </div>
+</body>
+
+
+
+
+</html>
